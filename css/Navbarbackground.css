@@ -1,0 +1,57 @@
+@import "https://fonts.google.com/?subset=arabic&preview.size=61";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+
+.nvbr{
+    width: 100%;
+ height: 13vh;
+color: white;
+background: linear-gradient(-45deg,  #151622, #0e1024, #0e1024, #35001b, #0e1024, #0e1024, #0e1024 );
+background-size: 400% 400%;
+position: relative;
+animation: change 10s ease-in-out infinite;
+}
+
+
+ @keyframes change {
+    0% {
+    background-position: 0 50%;
+ }
+ 50%{
+    background-position: 100% 50%;
+ }
+ 100%{
+    background-position: 0 50%;
+ }
+}
+
+.insta{
+   margin-left: 50px;
+   margin-bottom: 5px;
+}
+
+.tweet{
+
+      margin-left: 75px;
+      margin-bottom: 19px;
+    
+}
+
+.DIS{
+   margin-left: 30px;
+      margin-bottom: 19px;
+}
+
+ .CC{
+   margin-left: 400px;
+   margin-bottom: 25px;
+} 
+

@@ -1,0 +1,223 @@
+@import "/IMGs/SquadaOne-Regular.ttf";
+
+.Linee{
+  border-top: solid 15px #750031;
+  margin-top: 200px;
+}
+
+.card {
+  border-top:#750031 10px solid;;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px 80px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 19px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.card-image {
+  grid-area: image;
+}
+.card-text {
+  grid-area: text;
+}
+.card-stats {
+  grid-area: stats; 
+}
+
+
+/* PC 1 */
+
+.card-image {
+  grid-area: image;
+  background: url("/IMGs/New\ Project\ \(1\).png");
+  padding: 140px;
+  background-size: 100px;
+  border-bottom: 6px solid #750031;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: contain;
+  
+}
+
+/* PC 2 */
+
+.card-image2 {
+  grid-area: image;
+  background: url("/IMGs/Case\ 1\ \(eclipse\).jpg");
+  padding: 140px;
+  background-size: 600px;
+  border-bottom: 6px solid #750031;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+/* PC 3 */
+
+.card-image3 {
+  grid-area: image;
+  background: url("/IMGs/New\ Project.png");
+  padding: 140px 140px;
+  background-size: 600px;
+  border-bottom: 6px solid #750031;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+ 
+}
+
+/* PC 4 */
+
+.card-image4 {
+  grid-area: image;
+  background: url("/IMGs/corsair-carbide-series-spec-delta-rgb-tempered-glass-gaming-case-sri-lanka--02.jpg");
+  padding: 140px;
+  background-size: 600px;
+  border-bottom: 6px solid #750031;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+/* PC 5 */
+
+.card-image5 {
+  grid-area: image;
+  background: url("/IMGs/CORSAIR-iCUE-465X-RGB-3.jpg");
+  padding: 140px;
+  background-size: 600px;
+  border-bottom: 6px solid #750031;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+/* PC 6 */
+
+.card-image6 {
+  grid-area: image;
+  background: url("/IMGs/nzxt\ h510.jpg");
+  padding: 140px;
+  background-size: 600px;
+  border-bottom: 6px solid #750031;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+
+
+
+
+.card-text {
+  grid-area: text;
+  margin: 17px;
+ color: white;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.card-text h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top:63px;
+  font-size:28px;
+}
+
+
+.specs{
+  color: #750031;
+  font-size: 20px;
+  font-weight: 700;
+ letter-spacing: 2px;
+}
+
+
+.card-stats {
+  grid-area: stats; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+ border-top: 6px solid #ffffff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: #750031;
+}
+
+
+.card-stats  {
+  
+font-size: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding:10px;
+  
+  
+}
+
+
+.card:hover {
+  transform: scale(1.09);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card {
+ display: flexbox;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:150px;
+  background: linear-gradient(-45deg, #1d172f 0%, #241e49 55%, #18162a 80%);
+}
+
+
+
+.Line2{
+
+border-top: 15px solid #161a3f;
+
+}
+
+.titles{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: 200px;
+text-align: center;
+font-size: 100px;
+color: #750031;
+margin-bottom: 100px;
+text-shadow: #ffffff 2px 2px 2px ;
+border: 10px #161a3f solid;
+margin-left: 500px;
+margin-right: 500px;
+padding: 20px 50px 50px 50px;
+border-radius: 8px;
+background: linear-gradient(-45deg, #1d182c 0%, #2d2849 35%, #1c1a33 80%);
+}
+
+.titles2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: 200px;
+text-align: center;
+font-size: 100px;
+color: #750031;
+margin-bottom: 100px;
+border: 10px #161a3f solid;
+margin-left: 600px;
+margin-right: 600px;
+padding: 20px 50px 50px 50px;
+border-radius: 8px;
+text-shadow: #ffffff 2px 2px 2px ;
+background: linear-gradient(-45deg, #1d172f 0%, #241e49 55%, #18162a 80%);
+}
